@@ -1,0 +1,11 @@
+{
+  "name": "siqueira-campos-solidaria",
+  "version": "1.0.0",
+  "description": "Site da campanha Siqueira Campos Solidária",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ryan, Cris",
+  "license": "ISC"
+}

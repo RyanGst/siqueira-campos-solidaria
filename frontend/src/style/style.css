@@ -1,0 +1,299 @@
+
+/**********Geral************/
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1366px;
+}
+
+/***********Menu***********/
+.topo {
+    display: flex;
+    width: 100%;
+    margin-top: 1.4641288433382138vw;
+}
+.topo ul{
+    display: flex; 
+    align-items: center;
+}   
+.topo li {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.4641288433382138vw;
+    line-height: 160%;
+}
+.nav-link {
+    color: #4B5D68;
+}
+.logo {
+    width: 5.710102489019033vw;
+    height: 5.563689604685212vw;
+    padding: 0 10.980966325036603vw 0 3.6603221083455346vw;
+}
+.topo img {
+    width: 5.710102489019033vw;
+    height: 5.563689604685212vw;
+}
+/* ##########################Conteudo############################# */
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .headline {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+            .titulo {
+                width: 100%;
+                margin-top:  2.1961932650073206vw;
+                padding-left: 10%;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 4vw;
+                line-height: 110%;
+                color: #212353;
+            }
+
+            .sub-titulo {
+                width: 80%;
+                padding-left: 10%;
+                margin-top:  2.1961932650073206vw;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 1.5vw;
+                line-height: 160%;
+                color: #4B5D68;
+            }
+
+            .headline a {
+                margin-left: 10%;
+            }
+            .button {
+                margin-top: 10vh;
+                backface-visibility: hidden;
+                position: relative;
+                cursor: pointer;
+                display: inline-block;
+                white-space: nowrap;
+                background: #212353;
+                border-radius:  3.6603221083455346vw;
+                padding: 0.7320644216691069vw 1.4641288433382138vw;
+                color: #fff;
+                font-size: 1.5vw;
+                font-style: normal;
+            }
+
+                .button:hover{
+                    transition: 1s;
+                    background-color: #007bff;
+                    box-shadow: inset 0 0 1em #212353, 0 0 1em #f2f2f2;
+                }
+       
+    .banner{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+        .banner img {
+            width: 100%;
+            height: 100%;
+        }
+
+/********************************Patrocinio***************************************/
+.patrocinio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vw;
+    margin-bottom: 10vw;
+}
+
+.carrossel {
+    width: 70%;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    background-color: #4B5D68;  
+}
+
+.car-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+    line-height: 130%;
+    color: #f2f2f2;
+}
+
+/**********************************Carrossel****************************************/
+
+#carouselExampleIndicators{
+    width: 80%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-inner{
+    border-radius: 2vw;
+}
+
+.carousel-item {
+    border-radius: 2vh;
+}
+
+.slide1, .slide2, .slide3 {
+    width: 100%;
+    height: 28vw;
+}
+
+.slide1 {
+    background-color: blue;
+}
+.slide2 {
+    background-color: blueviolet;
+}
+.slide3 {
+    background-color: brown;
+}
+
+.setas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.carousel-control-next-icon {
+    width: 3vw;
+    height: 3vh;
+}
+.carousel-control-prev-icon {
+    width: 3vw;
+    height: 3vh;
+}
+.carousel-indicators li {
+    width: 3vw;
+    height: 0.5vh;  
+}
+.carousel-indicators{
+    margin-bottom: 0 !important;
+}
+/***************************************Contact********************************************/
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    width: 80%;
+    display: flex;
+}
+
+.contact-left {
+    width: 50%;
+}
+
+        .contact-titulo-1 {
+            color: #212353;
+            font-size: 2.9282576866764276vw;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 160%;
+        }
+
+        .contact-subtitulo {
+            margin-top: 1.4641288433382138vw;
+            font-style: normal;
+            font-weight: 900;
+            font-size:  1.3177159590043923vw;
+            line-height: 160%;
+            color: #4B5D68;
+        }
+
+    .contact-logo {
+        display: flex;
+        align-items: center;
+        margin-top: 6.44216691068814vw;
+    }
+
+        .contact-logo-1 {
+            width: 5.710102489019033vw;
+            height: 5.563689604685212vw;
+        }
+        .contact-logo-1 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .contact-logo-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 3.6603221083455346vw;
+            font-family: 'Oregano', cursive;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.6354319180087846vw;
+            line-height: 160%;
+        }
+
+    .endereco {
+        font-style: normal;
+        font-weight: 900;
+        font-size:  1.171303074670571vw;
+        line-height: 180%;
+        color: #212353;
+        margin-top: 7.320644216691069vw;
+        margin-bottom:  1.4641288433382138vw;
+    }
+
+    .contact-tel ul {
+        list-style-type: none;
+    }
+
+    .contact-tel {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.171303074670571vw;
+        line-height: 180%;
+        color: #212353;
+    }
+
+
+.contact-right {
+    width: 50%;
+}
+    .contact-titulo-2 {
+        position: relative;
+        float: right;
+        color: #212353;
+        font-size: 2.9282576866764276vw;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 160%;
+    }

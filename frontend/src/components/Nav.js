@@ -6,6 +6,12 @@ class Nav extends React.Component {
     render() {
         return (
                 <nav class="topo">
+
+                    <div class="logo-mobile">
+                        <div class="contact-logo-1"><img src={Logo}/></div>
+                        <div class="contact-logo-2">Siqueira Campos <br/>Solidária</div>
+                    </div>
+                    
                     <ul class="nav">
                         <div class="nav-item logo">
                             <img src={Logo}/>    

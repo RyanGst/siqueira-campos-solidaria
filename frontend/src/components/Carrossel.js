@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Avatar from '../img/avatar.svg';
 
 class Carrossel extends React.Component {
     render() {
@@ -7,13 +8,43 @@ class Carrossel extends React.Component {
                 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class=" slide1 d-block w-100" alt="Primeiro Slide"></div>
+                        <div class="patrocinador" alt="Primeiro Slide">
+                            <div class="logo-patrocinador">
+                                <img src={Avatar}/>
+                            </div>
+                            <div class="info-patrocinador">
+                                <p class="info-titulo">Mercado Beira Linha</p>
+                                <p class="info-social">fb.com/mercadobeiralinha</p>
+                                <p class="info-desc">Suspendisse ultrices at diam lectus nullam. 
+                                    Nisl, sagittis viverra enim erat tortor ultricies massa turpis.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="slide2 d-block w-100" alt="Segundo Slide"></div>
+                        <div class="patrocinador" alt="Segundo Slide">
+                            <div class="logo-patrocinador">
+                                <img src={Avatar}/>
+                            </div>
+                            <div class="info-patrocinador">
+                                <p class="info-titulo">Mercado Beira Linha</p>
+                                <p class="info-social">fb.com/mercadobeiralinha</p>
+                                <p class="info-desc">Suspendisse ultrices at diam lectus nullam. 
+                                    Nisl, sagittis viverra enim erat tortor ultricies massa turpis.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <div class=" slide3 d-block w-100" alt="Terceiro Slide"></div>
+                        <div class="patrocinador" alt="Terceiro Slide">
+                            <div class="logo-patrocinador">
+                                <img src={Avatar}/>
+                            </div>
+                            <div class="info-patrocinador">
+                                <p class="info-titulo">Mercado Beira Linha</p>
+                                <p class="info-social">fb.com/mercadobeiralinha</p>
+                                <p class="info-desc">Suspendisse ultrices at diam lectus nullam. 
+                                    Nisl, sagittis viverra enim erat tortor ultricies massa turpis.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="setas">
